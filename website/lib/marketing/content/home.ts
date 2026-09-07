@@ -108,7 +108,7 @@ export const solutionsPersonas = [
 
 export const corridorContent = {
   headline: "At home. Around the world.",
-  body: "Hold a balance in USD and other major currencies, then pay people and businesses in 80+ countries. Payment methods and coverage vary by destination.",
+  body: "Hold a balance in USD and other major currencies, then pay people and businesses in 80+ countries.",
   bullets: [],
   visualSlot: "mkt-map-corridors",
   altText:
@@ -121,12 +121,12 @@ export const homeCtaBand = DEFAULT_CTA_BAND
 export const homeFaq: FaqItem[] = [
   {
     question: "How can I receive international payments?",
-    answer: "Use the account details or stablecoin deposit address available in your Easner account and follow the Receive instructions. Businesses can also use invoices, Checkout, and Payment Links. Available currencies and payment methods depend on your account, location, and verification.",
+    answer: "Share the account details or stablecoin deposit address in your Easner account, and the payment lands on your balance. Businesses can also collect with invoices, Checkout, and Payment Links.",
     links: [{ label: "Receive with Easner Personal", href: "/personal" }, { label: "Invoice international customers", href: "/invoicing" }],
   },
   {
     question: "How long does an international transfer take?",
-    answer: "Timing depends on the payment method, destination, banking hours, and any verification or partner checks. Review the information available for your transfer before confirming, and follow its status in your account. There is no single delivery time for every route.",
+    answer: "Transfers are typically fast – minutes to hours, and same-day where supported. Timing varies with the destination and banking hours, and you can follow each transfer's status in your account.",
     links: [{ label: "Contact support", href: "/contact" }],
   },
   {
@@ -156,7 +156,7 @@ export const homeFaq: FaqItem[] = [
   {
     question: "What fees and exchange rates apply?",
     answer:
-      "Fees and exchange rates may apply depending on product and corridor. Applicable fees are shown before you confirm a transaction.",
+      "Fees and exchange rates may apply, and are always shown before you confirm a transaction.",
   },
   {
     question: "Where can I send money with Easner?",
